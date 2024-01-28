@@ -1,0 +1,24 @@
+--------------------------README-------------------------------------
+	
+type "make" to create a virtual environment
+type "source ./venv/bin/activate"
+type "pip install -Ur requirements.txt" in order to install needed packages
+
+
+To run Classifier{1}.py :  python3 Classifier{1}.py
+to run Classifier{2}.py :  python3 Classifier{2}.py
+
+to enter path when promted: ./path/to/the/img.jpg
+
+make clean : deleting venv & .pyc files
+
+to load data go to the directory where the MNIST data is stored, i had stored an extracted dataset but im certain itll still work even if the data is not extracted 
+
+you can modify the number of epochs and batch_size directly on the code.
+
+Included files : Classifier{1}.py
+		requirements.txt
+		Classifier{2}.py
+		makefile
+		README
+		report.pdf
